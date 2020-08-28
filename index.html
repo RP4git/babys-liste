@@ -4,23 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Babys Wunschliste</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-  </head>
-  <body>
-    <h1>Babys Wunschliste</h1>
+</head>
+  <body>    
+    
+    <h1 style="text-align: center;">  Babys Wunschliste</h1>
+    <br/>
+    <div id="app">
+      <ol style="margin: 0% 10%;">
+        <list-comp
+          v-for="item in categories"
+          v-bind:categories="item"
+          v-bind:key="item.id"
+        ></list-comp>
+      </ol>
+    </div>
     <ul class="list-group">
       <li
         class="list-group-item d-flex justify-content-between align-items-center"
-      >
-        Reisen
+      >Reisen
         <span class="badge badge-primary badge-pill">14</span>
       </li>
-      <li
+      <li>
+    <ul style="list-style-type: none;" v-show=false>
+      <li>
+        <a href="none" rel="none" target="_blank">Reisen</a></li>
+      <li>
+        <a href="none" rel="none" target="_blank">Reisen2</a></li>
+    </li>
+      <!-- <li
         class="list-group-item d-flex justify-content-between align-items-center"
       >
         Haushalt und Technik
@@ -31,7 +49,9 @@
       >
         babysichere WOhnung
         <span class="badge badge-primary badge-pill">1</span>
-      </li>
+      </li> -->
     </ul>
-  </body>
+  </ul>
+  <script defer src="index.js"></script>
+</body>
 </html>
