@@ -20,8 +20,9 @@
       <ol style="margin: 0% 10%;">
         <list-comp
           v-for="item in categories"
-          v-bind:categories="item"
-          v-bind:key="item.id"
+          :category="item"
+          :entries="entries"
+          :key="item.id"
         ></list-comp>
       </ol>
     </div>
@@ -32,7 +33,7 @@
       <button type="button" class="btn btn-outline-secondary">Reisen</button>
         <span class="badge badge-primary badge-pill">14</span>
       </li>
-      <li>
+      <li style="list-style-type:none;">
     <ul style="list-style-type: none;" v-show=false>
       <li>
         <a href="none" rel="none" target="_blank">Reisen</a></li>
