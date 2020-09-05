@@ -16,42 +16,17 @@
     
     <h1 style="text-align: center;">  Babys Wunschliste</h1>
     <br/>
-    <div id="app">
-      <ol style="margin: 0% 10%;">
+    <div id="app" style="margin: 0% 15%;">
         <list-comp
-          v-for="item in categories"
+          v-for="(item,catindex) in categories"
           :category="item"
           :entries="entries"
-          :key="item.id"
+          :catindex="catindex"
+          :key="catindex"
+          @show-entries="showAllEntries"
+          @toggle-link-state="toggleLink"
         ></list-comp>
-      </ol>
     </div>
-    <ul>
-      <li
-        class="d-flex justify-content-between align-items-center"
-      >
-      <button type="button" class="btn btn-outline-secondary">Reisen</button>
-        <span class="badge badge-primary badge-pill">14</span>
-      </li>
-      <li style="list-style-type:none;">
-    <ul style="list-style-type: none;" v-show=false>
-      <li>
-        <a href="none" rel="none" target="_blank">Reisen</a></li>
-      <li>
-        <a href="none" rel="none" target="_blank">Reisen2</a></li>
-    </li>
-      <!-- <li
-        class="list-group-item d-flex justify-content-between align-items-center"
-      >
-        Haushalt und Technik
-        <span class="badge badge-primary badge-pill">2</span>
-      </li>
-      <li
-        class="list-group-item d-flex justify-content-between align-items-center"
-      >
-        babysichere WOhnung
-        <span class="badge badge-primary badge-pill">1</span>
-      </li> -->
     </ul>
   </ul>
   <script defer src="index.js"></script>
