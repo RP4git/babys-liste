@@ -48,13 +48,18 @@ var app = new Vue({
           // '<a href="none" rel="noreferrer noopener" target="_blank">
           'Kindersitz (lange Fahrten)',
           //</a>',
-          '<a href="none" rel="noreferrer noopener" target="_blank">Kinder-Reisebett inkl. Matratze </a>',
+          // '<a href="none" rel="noreferrer noopener" target="_blank">
+          'Kinder-Reisebett inkl. Matratze', // </a>',
           '<a href="none" rel="noreferrer noopener" target="_blank"> Sonnenblende für das Autofenster </a>',
           '<a href="https://www.amazon.de/Kindersitzunterlage-geeignete-Unterlage-Kindersitze-Sitzschoner/dp/B074XCPNXV/ref=sr_1_2_sspa?adgrpid=70560690429&dchild=1&gclid=EAIaIQobChMItIi2sfus6gIVk9eyCh0nrQ5wEAAYASAAEgKvOPD_BwE&hvadid=352805541305&hvdev=c&hvlocphy=1004234&hvnetw=g&hvqmt=b&hvrand=15100898036617099247&hvtargid=kwd-300922602161&hydadcr=27956_1728818&keywords=unterlage+kindersitz&qid=1593637793&sr=8-2-spons&tag=googhydr08-21&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExOEdUNFdCQVZaVURaJmVuY3J5cHRlZElkPUEwMzQ2NDM4MjVYRjZEQjk4SVROUSZlbmNyeXB0ZWRBZElkPUEwMjI5MTEzVjc1NjVITlRaUDlGJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==" rel="noreferrer noopener" target="_blank">Sitzschoner Auto </a>',
-          '<a href="none" rel="noreferrer noopener" target="_blank"> Kombikinderwagen mit Zubehör (Krokodile?) </a>',
-          '<a href="none" rel="noreferrer noopener" target="_blank"> Sonnenschirm für Kinderwagen/Sonnendach mit Insektenschutz </a>',
-          '<a href="none" rel="noreferrer noopener" target="_blank"> Regenschutz für Kindewagen </a>',
-          '<a href="none" rel="noreferrer noopener" target="_blank"> Schlafsack für Kinderwagen </a>',
+          // '<a href="none" rel="noreferrer noopener" target="_blank">
+          'Kombikinderwagen mit Zubehör (Krokodile?)', // </a>',
+          // '<a href="none" rel="noreferrer noopener" target="_blank">
+          'Sonnenschirm für Kinderwagen/Sonnendach mit Insektenschutz', // </a>',
+          // '<a href="none" rel="noreferrer noopener" target="_blank">
+          'Regenschutz für Kindewagen', // </a>',
+          // '<a href="none" rel="noreferrer noopener" target="_blank">
+          'Schlafsack für Kinderwagen', // </a>',
         ],
       },
       {
