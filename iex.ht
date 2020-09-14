@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,7 +24,7 @@
         <list-comp
           v-for="(item,catindex) in categories"
           :category="item"
-          :entries="entries"
+          :entries="entries" -->
           :catindex="catindex"
           :key="catindex"
           @show-entries="showAllEntries"
